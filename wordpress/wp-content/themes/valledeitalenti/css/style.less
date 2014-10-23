@@ -1,0 +1,166 @@
+body {
+  background: transparent;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family:Open Sans;
+  font-weight:800;
+  color:#FFF;
+  font-size:33px;
+  letter-spacing: -0.2px;
+  line-height:1.2;
+  width:auto;
+  max-width:470px;
+  display:-webkit-inline-box
+}
+
+.description {
+  font-family:Open Sans;
+  font-weight:300;
+  color:#FFF;
+  font-size:19px;
+  line-height:1.4;
+  display:-webkit-inline-box;
+  margin-top:20px
+}
+
+@media (min-width: 600px) {
+  #main-container {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+  .description {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+}
+
+.phone-screen {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.sidebar-container {
+  margin-top: 30px;
+}
+
+.contact, .followus {
+  position: relative;
+  top: 12px;
+}
+
+aside.masonry-brick {
+  position: relative!important;
+}
+
+
+
+.mc4wp-form input[type="email"] {
+  width: 83%;
+  margin-top: 15px;
+  &:focus {
+    border-color: #d4d0ba;
+  }
+}
+
+.mc4wp-form input[type="submit"] {
+  float: right;
+  -webkit-appearance: button;
+  background: #E7412C!important;
+  &:hover {
+    background: darken(#E7412C, 5%)!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .mc4wp-form input[type="email"] {
+    width: 340px;
+  }
+  .mc4wp-form input[type="submit"] {
+    float: left;
+  }
+}
+
+@media (max-width: 450px) {
+  .mc4wp-form input[type="email"] {
+    width: 100%;
+    display: block;
+    float: none;
+    border-radius: 3px;
+  }
+  .mc4wp-form input[type="submit"] {
+    width: 100%;
+    float: none;
+    display: block;
+    border-radius: 3px;
+    margin: 15px 0 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer-row {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  span.followus, span.contact {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 14px;
+  }
+}
+
+.shoka-link {
+  display: inline-block;
+  font-weight: bold;
+  padding: 4px 8px;
+  background: rgba(27,84,96, 0.7);
+  color: #fff!important;
+  text-decoration: none!important;
+  border-radius: 4px;
+  &:hover {
+    background: rgba(27,84,96, 1);
+  }
+}
+
+.pioneers {
+  margin: 2px 0 0 30px;
+  img {
+    width: auto;
+    height: 50px;
+    magin-left: 30px;
+  }
+}
+
+.kitchen.pirate {
+  margin-left: 30px;
+}
+
+@media (max-width: 1200px) {
+  div.kitchen.pioneers {
+    clear: left;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  div.kitchen {
+  float:none;
+  display:block;
+  &.pirate {
+      margin-top: 30px;
+      margin-left: 0;
+    }
+  }
+}
