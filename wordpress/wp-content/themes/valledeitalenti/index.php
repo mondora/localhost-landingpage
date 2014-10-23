@@ -76,29 +76,27 @@
 		    <div class="row">
         <div class="col-md-6 col-md-offset-1 col-sm-6">
             <h1>
-                ::1 - talento@127.0.0.1 
-            </h1>
+                ::1 - talento@127.0.0.1
+            </h1>     
+            <h3>a Morbegno.SO</h3>
             <p class="description">
-                Uno spazio nuovo, tutto rivolto ai talenti e alle singole persone che vogliono condividere un ufficio con chi in Valtellina sta innovando nel mondo dell'Information Technology.
+                Sentire il profumo della tecnologia, l'odore del talento e della creatività così come in un garage degli anni 80 di San Francisco. Uno spazio nuovo, tutto rivolto ai talenti e alle singole persone che vogliono condividere un ufficio con chi in Valtellina sta innovando nel mondo dell'Information Technology.
             </p>
             	<div id="secondary" class="sidebar-container" role="complementary">
 		<div class="widget-area">
 			<aside id="mc4wp_widget-2" class="widget widget_mc4wp_widget"><!-- MailChimp for WP Pro v2.4.4 --><div id="mc4wp-form-1" class="form mc4wp-form mc4wp-form-126"><form method="post" action="/"><p>
     <label>Email Address:</label>
-    <input type="email" name="EMAIL" placeholder="Enter your email to see how" required="required">
+    <input type="email" name="EMAIL" placeholder="Se vuoi saperne di più metti la email" required="required">
     <input type="submit" value="Ok">
 </p><textarea name="_mc4wp_required_but_not_really" style="display: none !important;"></textarea><input type="hidden" name="_mc4wp_form_id" value="126" /><input type="hidden" name="_mc4wp_form_instance" value="1" /><input type="hidden" name="_mc4wp_form_submit" value="1" /><input type="hidden" name="_mc4wp_form_nonce" value="ac4aa403b9" /></form></div><!-- / MailChimp for WP Pro --></aside>		</div><!-- .widget-area -->                  
                
-      <br/><br/>
-      <ul class="description">
-          <li> una biblioteca IT <br></li>  
-          <!--br>
-          <li> un gruppo di persone altamente motivate<br></li>      
-          <li> un angolo relax in cui chattare di tecnologia<br></li>  
-          <li> una scrivania da noleggiare per le ore che si vogliono<br></li>
-          <li> un gruppo di amici che ti vogliono aiutare</li> 
-           -->
-      </ul>
+      <br/><br/>           
+      
+      <p class="description">
+          (una biblioteca IT) - (un gruppo di persone altamente motivate) - (un angolo relax in cui chattare di tecnologia)  
+          - (una scrivania da noleggiare per le ore che si vogliono) - (un gruppo di amici che ti vogliono aiutare) 
+      </p>
+     
 
 	</div><!-- #secondary -->
         </div>
@@ -120,18 +118,18 @@
             </div>
             <div class="col-md-4 col-sm-6">
                         <span class="contact">
-                        <a href="mailto:info@valledeitalenti.it?Subject=Inquiry about valledeitalenti.it" target="_top" style="color:white">
+                        <a href="mailto:info@localhost.so.it?Subject=Inquiry about localhost.so.it" target="_top" style="color:white">
                             Write to us</a>
                         </span>
                         <span class="followus">
 
-                            Follow us on: &nbsp <a href="https://twitter.com/shoka_me" target="_blank">
+                            Follow us on: &nbsp <a href="https://twitter.com/localhostso" target="_blank">
                                 <img src="/wp-content/themes/valledeitalenti/images/twittericon.png"style="margin-bottom:4px;"/>
                             </a> &nbsp
-                            <a href="https://www.facebook.com/shokameapp" target="_blank">
+                            <a href="https://www.facebook.com/localhostso" target="_blank">
                                 <img src="/wp-content/themes/valledeitalenti/images/facebookicon.png"style="margin-bottom:4px;"/>
                             </a> &nbsp
-                            <a href="http://instagram.com/valledeitalenti.it" target="_blank">
+                            <a href="http://instagram.com/localhost.so" target="_blank">
                                 <img src="/wp-content/themes/valledeitalenti/images/instagramicon.png" style="margin-bottom:4px;"/>
                             </a>
                         </span>
