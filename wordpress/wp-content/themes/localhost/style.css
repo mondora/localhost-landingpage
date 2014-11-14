@@ -1,0 +1,78 @@
+/*
+Theme Name: Localhost - valle dei talenti
+Author: the Mondora team
+Author URI: http://mondora.com/
+*/
+
+@font-face {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: 100;
+	src: local("Lato Thin"), local("Lato-Thin"), url("fonts/Lato-Thin.woff") format("woff");
+}
+@font-face {
+	font-family: "Lato";
+	font-style: bold;
+	font-weight: 400;
+	src: local("Lato Light"), local("Lato-Light"), url("fonts/Lato-Light.woff") format("woff");
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+#background-image{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: -10;
+}
+#background-image img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+}
+.container-fluid{
+	overflow: auto;
+	height: 100%;
+}
+#logo {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#logo img {
+	max-width: 100%;
+	max-height: 150px;
+}
+.meeting{
+	max-width: calc(100% - 40px);
+	border-radius: 50%;
+	border: 15px solid #fddd02;
+	margin: 20px;
+}
+#bottomText {
+	padding-bottom: 50px;
+}
+#footer {
+	background-color: #000;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
